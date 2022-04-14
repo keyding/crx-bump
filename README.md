@@ -4,6 +4,8 @@
 
 Automatically (or with prompts) bump your version number(**for Chrome Extension**), commit changes, tag, and push to Git.
 
+<img title="crx-bump" alt="crx-bump" src="screenshot.svg">
+
 ## Usage
 
 ```
