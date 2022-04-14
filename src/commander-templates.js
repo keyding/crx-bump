@@ -36,7 +36,7 @@ module.exports = {
   },
   // git push --tag
   gpt: {
-    cmd: `git push --tag`,
+    cmd: `git push --tags`,
     success: `${success} Git push`,
     error: `${error} Error on git push`
   },
