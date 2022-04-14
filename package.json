@@ -1,0 +1,46 @@
+{
+  "name": "crx-bump",
+  "version": "0.0.2",
+  "description": "Automatically (or with prompts) bump your version number(for Chrome Extension), commit changes, tag, and push to Git",
+  "keywords": [
+    "version",
+    "crx",
+    "crx-bump",
+    "bump",
+    "version-bump"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Gn1d",
+    "email": "tita0x00@gmail.com",
+    "url": "https://github.com/keyding"
+  },
+  "main": "src/main.js",
+  "bin": {
+    "cbump": "index.js"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyding/crx-bump.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keyding/crx-bump/issues"
+  },
+  "homepage": "https://github.com/keyding/crx-bump#readme",
+  "dependencies": {
+    "cac": "^6.7.12",
+    "kolorist": "^1.5.1",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2",
+    "semver": "^7.3.5",
+    "shelljs": "^0.8.5"
+  },
+  "packageManager": "pnpm@6.32.3"
+}
